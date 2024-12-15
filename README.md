@@ -55,7 +55,7 @@ model_dir = 'nmodel'
 model = EsmModel.from_pretrained(model_dir).to(device)
 tokenizer = EsmTokenizer.from_pretrained(model_dir)
 
-original_seq = 'SWIKEKKLL'
+original_seq = 'SWIKEKKLL' # Example Usage
 mutated_seq = 'SWIKAKKLL'
 inputs = tokenizer(original_seq, mutated_seq, return_tensors='pt', max_length=25, padding=True, truncation=True)
 inputs = {key: value.to(device) for key, value in inputs.items()}
