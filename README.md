@@ -24,7 +24,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Rohit-VP/EmbNetMut-Integrating-Embedding-Features-with-Bi-LSTM-for-Protein-Mutation-Stability-Classification/tree/main
    cd <repository_folder>
    ```
 
